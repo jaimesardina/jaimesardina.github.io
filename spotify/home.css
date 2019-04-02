@@ -1,0 +1,804 @@
+/* ===========================
+  	Corrections
+============================== */
+* {
+	box-sizing: box-sizing;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html,body {
+	display: flex;
+	flex-direction: column;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+
+
+}
+
+
+/* ===========================
+  			Header
+============================== */
+.nav a:hover {
+	color: #1DB954;
+}
+
+
+/* ===========================
+  			Banner
+============================== */
+.content-slide {
+		padding-right:15px;
+		padding-left:15px;
+	}
+.banner {
+	
+	background: url('pictures/guy2.jpeg');
+	background-size: cover;
+	background-position: center;
+	
+	
+	width: 100%;
+	height: 37.5em;
+	
+
+	display: flex;
+	flex-wrap: wrap;
+	align-items:center;
+	justify-content: center;
+	text-align: center;
+	z-index: 1
+
+	
+}	
+
+
+.banner h1 {
+	color: #fff;
+	font-size: 48px;
+	text-align: center;
+	line-height: 1.15em;
+	font-weight: bolder;
+	font-family: Helvetica, Arial, sans-serif;
+
+
+}
+.banner .button1, .banner .button2, .banner .button3 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	height: 50px;
+	border-radius: 50px;
+	letter-spacing: 2px;
+	margin-top: 38px;
+	transition:0.4s;
+}
+
+.button1 {
+	width: 253px;
+	background-color: #1DB954;
+
+}
+
+.button1:hover {
+	background-color: #1ed760;
+	transition: 0.4s;
+
+}
+.button2 {
+	width: 292px;
+	background-color: transparent;
+	border: 2px solid #fff;
+	
+}
+.button2:hover {
+	background-color: #fff;
+	color: #000;
+	transition: 0.4s;
+}
+
+
+
+/* ===========================
+  			Body
+============================== */
+
+.primary {
+	
+	margin-left: 1em;
+}
+
+.primary h1 {
+	margin: 1em 0 1em 0;
+	font-weight: 900;
+}
+
+.primary h3 {
+	margin-bottom: 0em;
+	font-weight: 900;
+
+}
+.primary p {
+	margin: 1em 0em 1.5em 0em;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+
+/**/
+
+.secondary {
+	display: flex;
+	flex-wrap:wrap;
+}
+
+.secondary img {
+	height: 50%;
+	width: 50%;
+}
+
+/**/
+
+
+.easy {
+	 background: -webkit-radial-gradient(circle, #F7BB29, #F0506C);
+	 opacity: 0.9;
+	
+
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.easy .primary {
+	color: #fff;
+}
+
+/**/
+
+.account {
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	padding-top: 3em;
+	padding-bottom: 3em;
+
+}
+.account h1 {
+	text-align: center;
+	flex-basis:100%;
+	margin-bottom: 1em;
+
+}
+
+.listOne {
+	display: flex;
+	flex-direction: column;
+	line-height: 2.5em;
+	margin: 1em;
+	font-weight: 600;
+	font-size: 14px;
+	
+}
+.listTwo {
+	display: flex;
+	flex-direction: column;
+	line-height: 2.5em;
+	margin: 1em;
+	font-weight: 600;
+	font-size: 14px;
+	
+
+}
+
+
+.listWrap {
+	display: flex;
+	/*flex-wrap:wrap;*/
+	width: 100%;
+	justify-content:space-around;
+
+}
+.account img {
+	max-height: 200px;
+	width: 350px;
+
+	margin: 1em;
+}
+
+/**/
+
+.getMusic {
+	background: -webkit-linear-gradient(-40deg, orange, #F0506C);
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+.getMusic h1 {
+	margin-bottom: 1.5em;
+	text-align: center;
+	color: #fff;
+	font-weight: 800;
+
+}
+.getMusic h4 {
+	margin-top: 0.5em;
+	font-size: 32px;
+}
+
+.getMusic .button1 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	height: 50px;
+	border-radius: 50px;
+	letter-spacing: 2px;
+	margin-top: 38px;
+	transition:0.4s;
+	width: 183px;
+}
+.note {
+	color: #fff;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.5em;
+	margin: 1em;
+	text-align: center;
+}
+.month {
+	font-size: 16px;
+	font-weight: 400;
+}
+.charts {
+	background-color: #fff;
+	border-radius: 15px;
+	height: auto;
+	width: auto;
+	margin: 1em;
+	padding: 2em;
+	box-shadow: 5px 4px 5px 0px rgba(0, 0, 0, 0.19);
+	
+}
+
+.lightList {
+	color: #ccc;
+}
+.charts h2 {
+	font-weight: 400;
+}
+
+.charts ul {
+	line-height: 2em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.charts p {
+	font-size: 12px;
+	line-height: 1.5em;
+}
+
+/* ===========================
+  			Footer
+============================== */
+.footer {
+	background-color: #000;
+	padding-top:3em;
+	padding-bottom: 3em;
+
+}
+
+.footLogo {
+	
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.footLogo img {
+	height: 30px;
+	width: auto;
+	margin-bottom: 1em;
+}
+
+.companyList, .commList, .helpList {
+	color: #fff;
+	line-height: 2.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+
+
+}
+.companyList h3, .commList h3, .helpList h3 {
+	color: #ccc;
+	margin: 1.5em 0 1.5em 0;
+	font-size: 14px;
+}
+
+.footLists {
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+.footLists .companyList, .footLists .commList, .footLists .helpList  {
+	flex-basis:40%;
+}
+
+.social {
+	margin-top: 5em;
+	margin-bottom: 2em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.fa {
+	background-color: #202020;
+	color: #fff;
+	padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    
+    text-decoration: none;
+    border-radius:50%;
+    margin-right: 0.5em;
+}
+
+.fa:hover {
+	color:#1ed760;
+}
+
+.smalltxt {
+	color: #ccc;
+	font-size: 10px;
+	padding-left: 1em;
+	padding-right: 1em;
+	
+}
+.smalltxt ul {
+	display: flex;
+	flex-wrap:wrap;
+
+}
+
+.smalltxt ul li {
+	margin-right: 1em;
+}
+
+.copyright {
+	
+	color: #ccc;
+	font-size: 10px;
+	padding-left: 1em;
+	padding-right: 1em;
+	
+}
+.lowerfoot {
+	display: flex;
+	justify-content:space-between;
+}
+
+
+
+/* ===========================
+  			Universal Use
+============================== */
+.greenWord {
+	color: #1DB954;
+}
+
+hr {
+	border-top: 1px solid #ccc;
+	margin-top: 1em;
+}
+
+
+	
+
+
+
+
+
+@media (min-width: 740px) {
+
+/* ===========================
+  			Banner
+============================== */
+
+.content-slide {
+	margin-top: 4em;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+/* ===========================
+  			Body
+============================== */
+
+.whatsOn {
+	display: flex;
+	background-color: #fff;
+	align-items: center;
+}
+.primary {
+	margin-left: 4em;
+}
+
+.secondary img {
+	height: 200px;
+	width: 200px;
+
+
+}
+
+.secondary {
+	display: flex;
+	flex-direction:column;
+	padding: 35px 50px 35px 35px;
+	margin-left: 3em;
+}
+.secondary img:nth-child(2) {
+	display: none;
+}
+
+/**/
+
+.account {
+	padding: 5em 4em;
+
+
+}
+.listWrap {
+	width: 35%;
+
+}
+.getMusic {
+	padding: 4em;
+	opacity: 0.91;
+}
+.getMusic h1 {
+	font-size: 38px;
+}
+.getMusic .button1 {
+	width: 100%;
+}
+.charts {
+	width: 50%;
+}
+#freeChart button {
+	margin-top: 41px;
+}
+#freeChart h4 {
+	margin-bottom: 55px;
+}
+.chartWrap {
+	display: flex;
+
+}
+
+
+
+
+/* ===========================
+  			footer
+============================== */
+.footer {
+	padding-left: 3.5em;
+	padding-right: 2em;
+}
+
+.footLists .companyList, .footLists .commList, .footLists .helpList {
+	flex-basis:25%;
+}
+
+
+
+}
+
+
+@media (max-width: 991px) {
+
+
+/* ===========================
+  	Main Header
+============================== */
+
+.navBar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	background-color: #110;
+	height: 55px;
+	
+	
+	z-index: 5;
+}
+
+.name {
+	font-size: 20px;
+	
+	color:#fff;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+
+#menuButton {
+	cursor: pointer;
+	width: 70px;
+	height: 30px;
+	margin-right: 5px;
+
+	
+}
+
+/* ===========================
+  	Navigation
+============================== */
+.open {
+	display: block;
+}
+.nav {
+	overflow: hidden;
+	background-color: #131215;
+	width: 100%;
+	height: 100vh;
+	display: none;
+	
+	padding: 2em;
+	position: fixed;
+
+	margin-top: 55px;
+	opacity: 0.91;
+	z-index: 100;
+	
+}
+
+
+.nav a {
+	color: #fff;
+	font-size: 34px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	line-height: 2em;
+
+}
+
+
+#liDivider {
+	color: #fff;
+	border-top: 1px solid #fff;
+	padding: 1em;
+	width: 20px;
+}
+
+.logNsign {
+	font-size: 24px;
+	line-height: 2em;
+	font-weight: normal;
+
+}
+#logoS {
+	height: 27px;
+	width: auto;
+	margin-top: 13px;
+	margin-bottom: 13px;
+	margin-left: 15px;
+
+	
+}
+#bottom-logo {
+	height: 27px;
+	width: auto;
+	margin-top: 70px;
+	
+
+
+}
+
+}
+
+@media (min-width: 992px) {
+
+/* ===========================
+  			Header
+============================== */
+
+#menuButton {
+	display: none;
+}
+#logoS {
+	height: 39px;
+	width: auto;
+	margin-left: 3em;
+}
+#bottom-logo {
+	display: none;
+}
+
+.mainHeader {
+	display: flex !important;
+	align-items:center;
+	justify-content:space-between;
+	height: 80px;
+	width: 100%;
+	background-color: #222322;
+	position: fixed;
+	z-index: 10000;
+	background-color: rgba(34, 35, 38, 0.5);
+
+	
+
+
+}
+
+.logoS {
+
+}
+.nav {
+	display: flex !important;
+	margin-right: 3em;
+
+	
+
+}
+.nav a {
+	font-size: 16px;
+	color: #fff;
+	margin-left: 2em;
+	font-weight: bold;
+
+}
+
+.nav a:nth-child(3) {
+	border-right: 1px solid #ccc;
+	padding-right: 2em;
+}
+
+.nav a:nth-child(1n + 4) {
+	color: #ccc;
+}
+
+/* ===========================
+  			Banner
+============================== */
+
+.banner h1 {
+	font-size: 54px;
+}
+
+/* ===========================
+  			Body
+============================== */
+.secondary img:nth-child(2) {
+	display: inline-block; 
+}
+.secondary img {
+	height: 175px;
+	width: 175px;
+}
+
+.whatsOn  {
+	padding: 4em 0;
+}
+.secondary {
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+}
+
+
+/**/
+.account {
+	justify-content:space-between;
+	align-items:center;
+}
+.account ul {
+flex-wrap: wrap;
+}
+
+.listOne {
+	flex-direction:row;
+
+	
+}
+.listOne li {
+	margin-right: 1em;
+
+}
+.listTwo {
+	flex-direction:row;
+}
+.listTwo li {
+	margin-right: 1em;
+}
+
+/*figure out how to imitate list One spacing*/
+.listWrap {
+	flex-direction:column;
+	width: 50%;
+	/*order:2;*/
+	height: 115px;
+	
+}
+.account {
+
+}
+
+.account img {
+	height: 300px;
+	width: 400px
+
+	
+
+}
+.account h1 {
+	text-align: left;
+	font-size: 48px;
+	max-width: 60%;
+	margin-bottom: 0;
+	font-weight: bolder;
+
+}
+
+/**/
+.chartWrap {
+	padding: 0 7em;
+}
+
+}
+
+@media (min-width: 1095px) {
+/* ===========================
+  			Banner
+============================== */
+.banner {
+	height: 45em;
+}
+.banner h1 {
+	font-size: 54px;
+}
+/* ===========================
+  			Body
+============================== */
+.secondary img {
+	height: 225px;
+	width: 225px;
+}
+.account {
+	padding: 4em 8em;
+}
+.account img {
+	
+	
+
+}
+
+
+
+
+}
+
+
+
+
+	
+
+
+
+
+
+
+
+

@@ -1,0 +1,431 @@
+/* ========================
+	General Corrections
+=========================== */
+* {
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+/*html, body {
+	overflow-x: hidden;
+}
+*/
+body {
+	font-family: 'Gudea', sans-serif;
+	/*display: flex;*/
+	/*min-height: 100vh;*/
+	/*flex-direction: column;*/
+}
+
+/* ===========================
+	Main Header / Navigation
+============================== */
+
+.mainHeader {
+	display: flex;
+	flex-direction: column;
+
+}
+.name {
+	color: #505050;
+	/*color: #fff;*/
+	letter-spacing: 0.2em;
+	font-size: 22px;
+	font-weight: normal;
+	margin-left:0.5em;
+}
+
+.nav a {
+	color: #505050;
+	/*color: #fff;*/
+	letter-spacing: 0.1em;
+
+}
+
+.nav a:hover, .name a {
+	color: #1BD499;
+}
+/*Icons will go here*/
+.nav {
+	height: auto;
+	margin: 0 0.5em;
+}
+
+
+
+
+/* ================
+	Banner
+===================*/
+
+.banner {
+	/*height: auto;*/
+	background-color: #1CB8A1;
+
+	line-height: 5em;
+	color: #fff;
+	padding: 3em 2em;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+
+
+
+
+
+}
+.banner h2 {
+	font-size: 38px;
+	letter-spacing: 0.1em; 
+	margin-bottom: 1em;
+}
+.banner p {
+	font-weight: normal;
+	font-size: 18px;
+	margin-top: 0.5em;
+}
+.profile-pic {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	opacity: 0.9;
+}
+
+/* ===========================
+  			Body
+============================== */
+
+.col {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	padding: 5em 2em;
+	line-height: 2em;
+
+}
+.col h2 {
+	padding-bottom: 2em;
+}
+.col p {
+	font-size: 16px;
+	font-weight: 500;
+} 
+.plus button {
+	visibility: hidden;
+}
+/* ========== About Me =========*/
+.about {
+	background-color: #373C4B;
+	color: #fff;
+	height:auto;
+
+	
+}
+
+span {
+	font-weight: 550;
+	color: #FDF0D5;
+	letter-spacing: 0.05em;
+}
+/* ======= Work Section ====== */ 
+.work {
+
+}
+.work-title {
+	margin-top: 5em;
+	display: flex;
+	justify-content: center;
+
+}
+.work-title h2 {
+	background-color: #FDF0D5;
+	width: auto;
+	padding:0.5em 2em;
+}
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1.2em;
+	margin-bottom: 2em;
+}
+
+.card img {
+	height: 270px;
+	width: 318px;
+}
+.card h3 {
+	padding: 1em;
+}
+.card p {
+	padding: 0 1em;
+}
+
+ button {
+		height: 50px;
+		width: 200px;
+		border-radius: 10px;
+		background-color: #18C198;
+		color: #fff;
+		border: none;
+		font-size: 16px;
+		font-weight: 500;
+		margin: 2em;
+	}
+/*button a {
+		color: #fff;
+	}*/
+button:hover {
+		background-color: #1BD499;
+	}
+/* ========= Skills ========*/
+.skills {
+	background-color:#FDF0D5; 
+}
+.skills h2 {
+	background-color: 
+	width: auto;
+	padding: 0.5em 2em;
+	margin-bottom: 2em;
+	color: ;
+}
+.skills1 {
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+	line-height: 3em;
+	height: auto;
+}
+.skills1 li {
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	align-items: center;
+	width: 300px;
+	}
+.skills1 li p {
+	font-weight: 575;
+}
+.bar {
+	height: 20px;
+	width: 150px;
+	background: #ccc;
+	border-radius: 10px;
+	position: relative;
+}
+.progress {
+	background: #1BD59A;
+	
+	/*transition: width 0.2s;*/
+	height: 20px;
+	border-radius: 10px;
+
+}
+/* ========= Footer ========*/
+.footer {
+	height: auto;
+	background: #303030;
+	color: #ccc;
+	
+}
+
+.footerLinks {
+	display: flex;
+	padding-bottom: 1.5em;
+	
+}
+.footerLinks a {
+	color: #ccc;
+	font-size: 14px;
+	padding: 0 1em;
+}
+.footerPersonal {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #FDF0D5;
+}
+.footerBottom {
+	margin-top: 2em;
+	display: flex;
+}
+.footerBottom p {
+	font-size: 12px;
+	padding: 0 0.5em;
+}
+
+/* ====================
+	Mobile Only
+======================= */
+
+@media (max-width: 780px) {
+	
+	#menuButton {
+		cursor: pointer;
+		width: 70px;
+		height: 40px;
+	}
+	.navBar {
+		/*background: #707070;*/
+
+		height: 80px;
+		width: 100%;
+		display: block;
+
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.nav {
+		line-height: 2.5em;
+		padding: 0 1em;
+		display: none;
+		line-height: 2em;
+	}
+
+}
+
+/*==================================================*/
+@media (min-width: 781px) {
+
+.containerWrap {
+	display: flex;
+
+}
+
+.mainHeader {
+		background-color:#373C4B;
+		}
+
+.name {
+	color:#fff;
+}
+.nav a {
+	color:#fff;
+}
+.nav a:hover, .name:hover {
+	color: #1BD499;
+}
+/* ===========================
+  			Banner
+============================== */
+	.banner {
+		background-color: #373C4B;
+		
+
+	}
+	.banner h2 {
+		font-size: 42px;
+		letter-spacing: 0.2em;
+
+	}
+	.banner h3 {
+		font-weight: normal;
+		font-size: 16px;
+	}
+
+/* ===========================
+   Main Header/ Navigation Bar
+============================== */
+
+	#menuButton {
+		display: none;
+	}
+
+
+	.mainHeader, .nav {
+		display: flex !important;
+		flex-direction: row;
+	}
+
+	.mainHeader {
+		height: 100px;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.nav a {
+		margin-right: 1.5em;
+	}
+	.name {
+		margin-left: 1.5em;
+	}
+
+
+/* ===========================
+  			BODY
+============================== */
+.card {
+	width: 35%;
+	height: 600px;
+
+		display: flex;
+		flex-direction:column;
+		align-items:center;
+		justify-content:space-between;
+
+}
+.card p {
+	text-align: center;
+}
+
+.work {
+	
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	
+	
+	
+}
+.about h2 {
+	font-size: 24px;
+}
+.contact h3 {
+	font-size: 24px;
+
+}
+.work h2 {
+	font-size: 24px;
+}
+
+.skills1 {
+	display: flex;
+	justify-content:space-between;
+	
+}
+.skills1 li {
+	width: 350px;
+}
+
+
+
+}
+
+
+@media (min-width: 1278px) {
+.banner {
+	min-width: 400px;
+}
+
+.col {
+	padding: 5em 6em;
+}
+.skills1 li {
+	width: 450px;
+}
+.skills1 li p {
+	font-size: 20px;
+}
+.bar,.progress {
+	height: 22px;
+}
+}

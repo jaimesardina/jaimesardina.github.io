@@ -1,0 +1,86 @@
+/* ===========================
+   OVERRIDES acHome.css ! ! !
+============================== */
+				
+				
+				/*   TABLE   */
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+	text-align: left;
+	background-color: #7F9CCB;
+	color: #fff;
+	
+}
+
+th, td {
+	padding: 10px;
+}
+
+td {
+	font-size: 14px;
+}
+
+tr:nth-child(odd) {
+	background-color: #E3E3E5;
+}
+
+span {
+	color: red;
+}
+/* ===========================
+   BANNER
+============================== */
+.banner {
+	background-color: #2E86AB;
+	width: 100%;
+	height: 15em;
+	margin-bottom: 2em;
+
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	
+}
+
+	.banner h1{
+		font-size: 42px;
+		color:#fff;
+	}
+	.banner p {
+		color: #fff;
+		margin: 0;
+		font-size: 14px;
+	}
+
+/* ===========================
+   BODY 
+============================== */
+
+.col h2 {
+	text-align: left;
+}
+
+.col {
+	flex-basis:100%;
+
+}
+	
+
+
+@media (min-width: 681px) {
+	.banner {
+		height: 20em;
+	}
+
+
+	
+	
+
+}

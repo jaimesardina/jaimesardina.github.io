@@ -1,0 +1,131 @@
+/* ===========================
+   OVERRIDES acHome.css ! ! !
+============================== */
+
+.container {
+	margin-left: 2.2em;
+	margin-right: 1.8em;
+}
+/* ===========================
+   BANNER
+============================== */
+
+.banner {
+	background: url('pictures/cooking.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 20em;
+	margin-bottom: 2em;
+	opacity: 0.9;
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	
+	
+}
+
+	.banner h1{
+		font-size: 26px;
+		color:#fff;
+		/*border-top: 2px solid #fff;*/
+		/*border-bottom: 2px solid #fff;*/
+
+		
+
+		
+	}
+
+	.backhead {
+		display: flex;
+		flex-direction: column;
+
+		opacity: 0.9;
+		justify-content:center;
+		background-color:#25867C; 
+		border-radius: 15px;
+		margin: 0;
+		height: 4em;
+		padding: 0.2em;
+		
+
+	}
+	.banner p {
+		color: #fff;
+		background-color: #504B43;
+		margin-top: 5em;
+		padding: 0.6em;
+		border-radius: 5px;
+
+		font-size: 12px;
+		font-weight: bold;
+
+		
+	}
+
+	
+
+	@media (min-width: 681px) {
+
+	/* ===========================
+	   Body
+	============================== */
+
+
+	.primary {
+			flex-basis:70%;
+		} 
+
+		.secondary {
+			flex-basis:27%;
+		}
+
+
+		.banner {
+			height: 25em;
+		}
+
+		.banner h1 {
+			font-size: 32px;
+
+		}
+		.backhead {
+			height: 5em;
+			
+		}
+
+		.banner p {
+			padding: 0.8em;
+			font-size: 14px;
+		}
+
+	}
+
+	@media (min-width: 1012px) {
+
+		.banner {
+			height: 30em;
+		}
+
+		.banner h1 {
+			font-size: 42px;
+
+		}
+		.backhead {
+			height: 6em;
+			
+		}
+
+		.banner p {
+			
+			font-size: 15px;
+		}
+		
+
+
+	}
+
+
+
+

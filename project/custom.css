@@ -1,0 +1,18 @@
+.navbar .navbar-brand {
+
+	color: rgba(255, 255, 255, .85);
+	font-size: 1rem;
+	padding-top: .45rem;
+}
+
+.jumbotron {
+
+	background: url('/Users/jaimesardina/Documents/Web Dvlp/TreeHouse/BootStrap/project/img/jumbo-bg.jpg');
+	background-size: cover;
+
+}
+
+.btn,
+.active {
+	transition: .4s;
+}

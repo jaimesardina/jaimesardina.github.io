@@ -1,0 +1,538 @@
+/* basic corrections  */
+
+html,body {
+	overflow-x:hidden;
+}
+body {
+	font-family: 'Khula', sans-serif;
+	margin: 0;
+
+	display: flex;
+  	min-height: 100vh;
+  	flex-direction: column;
+
+
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+/* ===========================
+  			BANNER - Slide Show
+============================== */
+.slides {
+	height: 20em;
+	width: 100%;
+
+}
+.one {
+	background: url('pictures/food1.jpeg');
+}
+.two {
+	background: url('pictures/truckfloor.jpg');
+}
+.three {
+	background: url('pictures/food3.jpg');
+}
+.four {
+	background: url('pictures/food2.jpg');
+}
+
+
+.slides .image {
+	height: 20em;
+	background-size: cover;
+
+	background-position: center;
+}
+
+
+
+.slick-dots li button:before {
+	color: #ccc;
+	opacity: 0.75;
+
+}
+
+	.label {
+	height: 175px;
+	width: 175px;
+	border: 1px solid #202020;
+	background: #FEC44B;
+	margin-right: 5em;
+	border-radius: 100%;
+	position: absolute;
+	right: 0;
+	bottom: 35px;
+	padding: 1.5em;
+	opacity: 0.95;
+
+
+
+}
+
+.label p, .label h3, .label a {
+	color: #F7F5F9;
+	text-align: center;
+	padding-top: 0.2em;
+
+	
+}
+
+.label h3 a {
+	border-bottom: 1px solid #F4AA0C;
+	
+}
+
+.label a:hover {
+	color: #DF5562;
+}
+
+
+/* ===========================
+   Main Header/ Navigation Bar
+============================== */
+
+.mainHeader {
+	display: flex;
+	flex-direction: column;
+
+
+
+}
+
+.nav a {
+	color: #606060;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+
+
+     /*AC LOGO*/
+
+.name {
+	color:#000;
+ }
+
+/* ============
+      Body
+============== */
+.container {
+	flex:1;
+
+}
+.col h2 {
+	color: #000;
+	line-height: 1.5em;
+	font-family: 'Raleway', sans-serif;
+	border-bottom: 1px dotted #E65529;
+
+
+}
+
+.col
+     {
+	flex-basis:100%;
+	line-height: 1.5em;
+
+}
+
+p {
+	font-size: 16px;
+}
+
+footer {
+	background-color: #303030 ;
+	
+	height: auto;
+	padding: 25px 10px 10px 10px;
+	
+	margin:0; 
+	margin-top: 7em; 
+	display: flex;
+	flex-direction: column;
+
+
+
+
+}
+
+.footer-links ul {
+	display: flex;
+	padding-bottom: 1.5em;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+.footer-links a {
+	
+	color: #B5C1C3;
+	font-size: 14px;
+	font-weight: bolder;
+	
+	padding-bottom: 1.5em;
+	font-family: 'Trebuchet MS', Helvetica ,sans-serif;
+	
+}
+
+.footnav {
+	padding-left: 2em;
+}
+
+.footer-ad {
+	color: #ccc;
+
+}
+
+.footer-ad p {
+	font-size: 14px;
+	text-align: center;
+}
+.footer-bottom {
+	display: flex;
+	
+	justify-content: center;
+
+}
+.footer-bottom p {
+	
+	display: flex;
+	margin: 0;
+	font-size: 8px; 
+	color: #ccc;
+	margin-top: 20px;
+	padding-right: 5px;
+	padding-left: 5px;
+	
+	border-right: 1px solid #fff; 
+
+}
+
+
+
+/* ==================
+      Media Queries
+===================== */
+
+@media only screen and (max-width: 680px) {
+
+	/* Mobile effect*/
+	.overlay {
+	background-color: #fff;
+	filter: brightness(35%);
+	}
+
+	.background {
+		margin: 0;
+		padding: 0;
+		
+	}
+
+
+.name {
+	font-size: 24px;
+	width: 150.53px;
+	padding-top:0.3em;
+	padding-bottom: 0.3em;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-left: 10px;
+	
+	color:#000;
+	border-right: 1px solid #000;
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+}
+
+
+.nav {
+	overflow: hidden;
+	display: none;
+	
+	line-height: 3em;
+	text-align: center;
+	background-color: #fff;
+
+	margin: 0;
+
+}
+
+.nav a:hover {
+		color: #DD977C;
+		
+}
+
+
+#menuButton {
+	cursor: pointer;
+	width: 6em;
+	height: 40px;
+	margin-top: 8px;
+	margin-right: 10px;
+}
+
+.navBar {
+	background-color: #fff;
+	height: 57px;
+	width: 100%;
+	display: block;
+	display: flex; /* aligns AC Catering */
+	justify-content: space-between;
+
+}
+
+
+
+.container {
+	margin-left: 1.1em;
+}
+
+
+.label {
+	display: none;
+}
+
+}
+
+
+
+
+
+@media only screen and (min-width: 681px) {
+
+
+/* ==================
+     Slideshow
+===================== */
+
+
+
+	.name {
+	font-size: 25px;
+	width: 150.53px;
+	color: #000;
+	padding:0.4em, 0em, 0.4em, 0em;
+	margin-bottom:13px;
+	margin-top:12px;
+	
+	/*border-right: 1px solid #000;*/
+	font-weight: normal;
+	font-family: 'Raleway', sans-serif;
+}
+
+	/*   Main Header & Navigation   */
+
+	#menuButton {
+		display: none;
+	}
+	
+	.mainHeader, .nav {
+		display: flex !important;
+		flex-direction: row;
+		background-color: #fff;
+
+
+
+	}
+
+
+	.mainHeader {
+		justify-content: space-between;
+		align-items: center;
+		height: 5em;
+
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 100;
+	
+		
+
+
+		
+	}	
+
+	/*to correct overlapping with fixed nav*/
+	.slides, .banner {
+		margin-top: 5em;
+	}
+
+
+	
+	.nav a {
+		padding: 0.4em;
+-webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  
+   letter-spacing: 0.8px;
+
+  
+
+	}
+
+	.nav a:hover {
+		color: #606060;
+		background-color: #FCE694;
+		
+		border-radius: 2px;
+		
+
+	-webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+
+	}
+
+
+
+	.mainHeader, .container
+	 {
+		padding-left: 3em;
+		padding-right: 3em;
+	}
+
+	/* 
+	====================
+		slideshow
+	==================== */
+
+	
+	
+
+
+	/* ==========
+	       Body   
+	   ========== */
+
+	.container {
+		display: flex;
+		flex-wrap:wrap;
+		justify-content:space-between;
+		
+		
+	}
+	
+
+	.col {
+		flex-basis:45%;
+	}
+
+
+.slides, .slides .image {
+		height: 25em;
+
+
+		
+	}
+
+	.footer-bottom p {
+		font-size: 12px;
+	}
+	
+
+}
+
+
+@media only screen and (min-width: 1012px) {
+
+	/*   Body   */
+
+	
+	.primary {
+		order: 1;
+		flex-basis: 65%;
+	}
+
+	.secondary {
+		order: 3;
+		flex-basis: 65%;
+
+	}
+
+	.third {
+		order: 2;
+		flex-basis: 30%;
+
+	}
+
+	.fourth {
+		order: 4;
+		flex-basis: 30%;
+	}
+
+	.mainHeader, .container {
+		padding-left: 5em;
+		padding-right: 5em;
+	}
+	
+	.slides, .slides .image {
+		height: 30em;
+		
+	}
+
+	.label {
+		height: 200px;
+		width: 200px;
+
+	}
+
+	.label p, .label h3, .label a {
+		padding-top: 1em;
+	}
+	
+	.label p {
+		font-size: 18px;
+	}
+
+	.label h3 {
+		font-size: 20px;
+	}
+
+
+
+}
+
+/* added classes abondon style
+
+.actnav {
+	transition-duration:0.8s;
+	background-color: #202020;
+	opacity: 0.9;
+
+	
+
+
+}
+
+.actnav-link {
+	color:#fff;
+
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
