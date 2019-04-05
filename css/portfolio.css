@@ -131,9 +131,9 @@ body {
 }
 
 span {
-	font-weight: 550;
-	color: #FDF0D5;
-	letter-spacing: 0.05em;
+	color: #1BD499;
+	letter-spacing: 0.1em;
+	font-size: 18px;
 }
 /* ======= Work Section ====== */ 
 .work {
@@ -253,6 +253,10 @@ button:hover {
 	align-items: center;
 	color: #FDF0D5;
 }
+.footerPersonal a {
+	color: #FDF0D5;
+}
+
 .footerBottom {
 	margin-top: 2em;
 	display: flex;
@@ -261,6 +265,38 @@ button:hover {
 	font-size: 12px;
 	padding: 0 0.5em;
 }
+.footerIcons {
+	display: flex;
+	margin-top: 2em;
+
+}
+.fa-linkedin-in, .fa-github, .fa-slack {
+	color: #b3b3b3;
+	font-size: 24px;
+	padding: 0.19em;
+	opacity: 0.75;
+	margin:0px 6px;
+	border-radius: 2px;
+
+}
+.fa-linkedin-in:hover {
+	background-color:#0077B5;
+	color:#fff;
+	opacity: 1;
+
+}
+.fa-github:hover {
+	color: #fff;
+	opacity: 1;
+}
+.fa-slack:hover {
+	background-color:#611f69; 
+	color: #fff;
+	opacity: 1;
+	border-radius: 5.5px;
+
+}
+
 
 /* ====================
 	Mobile Only
