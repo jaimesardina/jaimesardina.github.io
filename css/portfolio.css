@@ -118,9 +118,9 @@ body {
 	font-size: 16px;
 	font-weight: 500;
 } 
-.plus button {
+/*.plus button {
 	visibility: hidden;
-}
+}*/
 /* ========== About Me =========*/
 .about {
 	background-color: #373C4B;
