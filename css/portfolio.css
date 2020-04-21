@@ -83,7 +83,7 @@ body {
 }
 .banner h2 {
 	font-size: 38px;
-	letter-spacing: 0.1em; 
+	letter-spacing: 0.1em;
 	margin-bottom: 1em;
 }
 .banner p {
@@ -117,7 +117,7 @@ body {
 .col p {
 	font-size: 16px;
 	font-weight: 500;
-} 
+}
 /*.plus button {
 	visibility: hidden;
 }*/
@@ -127,7 +127,7 @@ body {
 	color: #fff;
 	height:auto;
 
-	
+
 }
 
 span {
@@ -135,7 +135,7 @@ span {
 	letter-spacing: 0.1em;
 	font-size: 18px;
 }
-/* ======= Work Section ====== */ 
+/* ======= Work Section ====== */
 .work {
 
 }
@@ -188,10 +188,10 @@ button:hover {
 	}
 /* ========= Skills ========*/
 .skills {
-	background-color:#FDF0D5; 
+	background-color:#FDF0D5;
 }
 .skills h2 {
-	background-color: 
+	background-color:
 	width: auto;
 	padding: 0.5em 2em;
 	margin-bottom: 2em;
@@ -223,7 +223,7 @@ button:hover {
 }
 .progress {
 	background: #1BD59A;
-	
+
 	/*transition: width 0.2s;*/
 	height: 20px;
 	border-radius: 10px;
@@ -234,13 +234,13 @@ button:hover {
 	height: auto;
 	background: #303030;
 	color: #ccc;
-	
+
 }
 
 .footerLinks {
 	display: flex;
 	padding-bottom: 1.5em;
-	
+
 }
 .footerLinks a {
 	color: #ccc;
@@ -270,10 +270,10 @@ button:hover {
 	margin-top: 2em;
 
 }
-.fa-linkedin-in, .fa-github, .fa-slack {
+.fa-linkedin-in, .fa-github, .fa-instagram {
 	color: #b3b3b3;
 	font-size: 24px;
-	padding: 0.19em;
+	padding: 0.08em 0.15em;
 	opacity: 0.75;
 	margin:0px 6px;
 	border-radius: 2px;
@@ -289,8 +289,8 @@ button:hover {
 	color: #fff;
 	opacity: 1;
 }
-.fa-slack:hover {
-	background-color:#611f69; 
+.fa-instagram:hover {
+	//background-color:#611f69;
 	color: #fff;
 	opacity: 1;
 	border-radius: 5.5px;
@@ -303,7 +303,7 @@ button:hover {
 ======================= */
 
 @media (max-width: 780px) {
-	
+
 	#menuButton {
 		cursor: pointer;
 		width: 70px;
@@ -355,7 +355,7 @@ button:hover {
 ============================== */
 	.banner {
 		background-color: #373C4B;
-		
+
 
 	}
 	.banner h2 {
@@ -414,13 +414,13 @@ button:hover {
 }
 
 .work {
-	
+
 	flex-direction:row;
 	flex-wrap:wrap;
 	justify-content:space-around;
-	
-	
-	
+
+
+
 }
 .about h2 {
 	font-size: 24px;
@@ -436,7 +436,7 @@ button:hover {
 .skills1 {
 	display: flex;
 	justify-content:space-between;
-	
+
 }
 .skills1 li {
 	width: 350px;
