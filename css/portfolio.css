@@ -168,6 +168,11 @@ span {
 .card p {
 	padding: 0 1em;
 }
+/* hide soltech project to work on seperate Website */
+
+.plus {
+	visibility: hidden;
+}
 
  button {
 		height: 50px;
@@ -279,6 +284,8 @@ button:hover {
 	border-radius: 2px;
 
 }
+
+
 .fa-linkedin-in:hover {
 	background-color:#0077B5;
 	color:#fff;
